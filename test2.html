@@ -1,0 +1,432 @@
+<html lang="en">
+
+<head>
+    <title>大肚山</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .nav-link {
+            color: black;
+        }
+
+        .nav-pills .nav-link.active {
+            background: #82D900;
+
+        }
+
+        .tab-content {
+            border: 2px solid #82D900;
+            border-color: greenyellow;
+        }
+    </style>
+    <script async src="https://cse.google.com/cse.js?cx=eadac2c2055af9e16"></script>
+
+</head>
+
+<body>
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-sm navbar-light sm-light" style="background-color:  #d6f6a4;">
+    <a class="navbar-brand" href="Index.html" style="font-size: large; ">
+        <svg width="1em" height="1em"
+             viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+             style="color: red;">
+            <path fill-rule="evenodd"
+                  d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd"
+                  d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg>
+        景點旅遊指南
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            style="height: 50px;">
+        <span class="navbar-toggler-icon" style="height: 30px;"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height: 66px; font-size: large;">
+        <ul class="navbar-nav mr-auto">
+<!--            <li class="nav-item active">-->
+<!--                <a class="nav-link" href="Activity.html">-->
+<!--                    <svg width="1em" height="1em" viewBox="0 0 16 16"-->
+<!--                         class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"-->
+<!--                         style="color:aqua;">-->
+<!--                        <path-->
+<!--                                d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>-->
+<!--                    </svg>-->
+<!--                    最新活動 <span class="sr-only">(current)</span>-->
+<!--                </a>-->
+<!--            </li>-->
+
+
+            <li class="nav-item active">
+                <a class="nav-link" href="About.html">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope"
+                         fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:darkgoldenrod;">
+                        <path fill-rule="evenodd"
+                              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    About Us
+                </a>
+            </li>
+
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+
+
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="font-size: xx-small;">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+            style="height: 38px;font-size: xx-small;margin-left: 30px;">Search</button>  -->
+            <div class="gcse-search"></div>
+
+        </form>
+    </div>
+</nav>
+<!-- 轉播 -->
+<!-- 轉播 -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="image/tree4.jpg" alt="First slide" style="height: 280px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/Mount3.jpg" alt="Second slide" style="height: 280px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/tree3.jpg" alt="Third slide" style="height: 280px;">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="image/Index_photo.jpg" role="button" data-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="sr-only">Next</span>
+    </a>
+    <div class="carousel-caption d-none d-md-block">
+        <a style="font-size: 100px; font-weight: bold">大肚山</a>
+        <p style="font-size: 50px; font-weight:bold;">景點旅遊指南</p>
+    </div>
+
+</div>
+<br>
+<!-- 內容 -->
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm  -2" style="font-size: large;margin-top: 30px; min-width: 170px;">
+            <div class="nav flex-column nav-pills  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                   aria-controls="v-pills-home" aria-selected="true">主頁</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                   aria-controls="v-pills-profile" aria-selected="false">交通</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                   aria-controls="v-pills-messages" aria-selected="false"></a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                   aria-controls="v-pills-settings" aria-selected="false">一日遊推薦行程</a>
+                <br>
+                <span class="border border-primary"></span>
+
+            </div>
+            <br>
+            <div class="card" style="max-width: initial;;">
+                <img class="card-img-top" src="image/Index_MounDaDU.png" style="max-height: 250px;"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-outline-secondary " style="font-size: large;">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-5" style="font-size: large; ">
+            <div column style="box-shadow:3px 3px 5px 6px #cccccc;">
+
+                <div style="text-align: center;">
+                    <img class="img-fluid" src="image/Index_Background.jpg" style="height: 280px; margin-top: 30px;"/>
+                </div>
+                <div>
+                    <h5 style="text-align: center;">??????????????????</h5>
+                    <dt class="col-sm-12" style="text-align: center;">Malesuada porta</dt>
+                    <dd class="col-sm-12">ABCDEFG?????</dd>
+
+                    <div style="text-align:right; margin-bottom: 30px; margin-right: 30px;">
+                        <a href="test2.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary
+                            link</a>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+            <hr>
+            <div column style="box-shadow:3px 3px 5px 6px #cccccc;">
+
+                <div style="text-align: center;">
+                    <img class="img-fluid" src="image/Index_Background.jpg" style="height: 280px; margin-top: 30px;"/>
+                </div>
+                <div>
+                    <h5 style="text-align: center;">??????????????????</h5>
+                    <dt class="col-sm-12" style="text-align: center;">Malesuada porta</dt>
+                    <dd class="col-sm-12">Etiam porta sem maiam porta sem malesuada magna mollis
+                        euismod.?????????????iam porta
+                        sem malesuada magna mollis euismod.?????????????iam porta sem malesuada magna mollis
+                        euismod.?????????????lesuada magna mollis euismod.?????????????
+                    </dd>
+
+                    <div style="text-align:right; margin-bottom: 30px; margin-right: 30px;">
+                        <a href="test.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary
+                            link</a>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-5" style="font-size: large; ">
+            <div column style="box-shadow:3px 3px 5px 6px #cccccc;">
+
+                <div style="text-align: center;">
+                    <img class="img-fluid" src="image/Index_Background.jpg" style="height: 280px; margin-top: 30px;"/>
+                </div>
+                <div>
+                    <h5 style="text-align: center;">??????????????????</h5>
+                    <dt class="col-sm-12" style="text-align: center;">Malesuada porta</dt>
+                    <dd class="col-sm-12">Etiam porta sem maiam porta sem malesuada magna mollis
+                        euismod.?????????????iam porta
+                        sem malesuada magna mollis euismod.?????????????iam porta sem malesuada magna mollis
+                        euismod.?????????????lesuada magna mollis euismod.?????????????
+                    </dd>
+
+                    <div style="text-align:right; margin-bottom: 30px; margin-right: 30px;">
+                        <a href="test.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary
+                            link</a>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+            <hr>
+            <div column style="box-shadow:3px 3px 5px 6px #cccccc;">
+
+                <div style="text-align: center;">
+                    <img class="img-fluid" src="image/Index_Background.jpg" style="height: 280px; margin-top: 30px;"/>
+                </div>
+                <div>
+                    <h5 style="text-align: center;">??????????????????</h5>
+                    <dt class="col-sm-12" style="text-align: center;">Malesuada porta</dt>
+                    <dd class="col-sm-12">Etiam porta sem maiam porta sem malesuada magna mollis
+                        euismod.?????????????iam porta
+                        sem malesuada magna mollis euismod.?????????????iam porta sem malesuada magna mollis
+                        euismod.?????????????lesuada magna mollis euismod.?????????????
+                    </dd>
+
+                    <div style="text-align:right; margin-bottom: 30px; margin-right: 30px;">
+                        <a href="test.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary
+                            link</a>
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- <div class="col-md-10" style="font-size: large; ">
+
+          <div class="tab-content  " id="v-pills-tabContent" style="margin-top: 10px; padding: 40px; ">
+
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h1 style="text-align: center; margin-right: 50px;">簡介</h1>
+              <div style="height: auto;">
+                <img src="image/Index_MounDaDU.png" alt="..." class="  rounded-pill float-left" height="200px"
+                  width="auto" style="margin-right: 50px;">
+                <a style="margin-top: 30px;font-size: large; margin-left: 40px;">大肚山，位於臺中市，是一個臺地地形，受人為開發影響甚大，原屬於相思樹林相，原生種有大肚山薔薇與光葉薔薇
+                  ，受到天竺草入侵， 與農民以大黍為旱作，發生很了大改變。</a>
+                <br>
+                <br>
+                <br>
+                <a style="font-size: large;">台中大肚登山適合親子同行的步道，有四個路口處:
+                  萬里長城(保安林)、監理所、環保公園、自由路，步道多有鋪設石板， 整體來說是滿輕鬆無難度，只是多為階梯比較累，
+                  就像是爬30層樓梯的感覺，很適合訓練肌耐力與耐性。整個步道多有涼亭、遮陰處，不會太曬~中午來也很適合。</a>
+                <br><br><br>
+                <br>
+              </div>
+
+              <div style="height: auto;">
+                <img src="image/Index_MounDaDU.png" class="rounded float-right" height="180px" width="auto"
+                  style="margin-left: 52px;">
+                <a style="font-size: large;margin-top: 20px; margin-left: 40px;"> 台中大肚登山適合親子同行的步道，有四個路口處:萬里長城(保安林)、監理所、
+                  環保公園、自由路，步道多有鋪設石板，
+                  整體來說是滿輕鬆無難度，只是多為階梯比較累，就像是爬30層樓梯的感覺，
+                  很適合訓練肌耐力與耐性。整個步道多有涼亭、遮陰處，不會太曬~中午來也很適合</a>
+              </div>
+
+
+
+            </div>
+
+
+
+
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div style="margin: auto; width: 500px; height: 300px;">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29125.58016504412!2d120.55694838231463!3d24.147258601279685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693e54d1d774d1%3A0xe4d84fffb8bbbc94!2z5aSn6IKa5bGx!5e0!3m2!1szh-TW!2stw!4v1601527585494!5m2!1szh-TW!2stw"
+                  width="500" height="300" frameborder="0" style="border:0;margin: auto;" allowfullscreen=""
+                  aria-hidden="false" tabindex="0"></iframe>
+              </div>
+
+              <h5 style="margin-top: 30px;text-align: center;margin-top: 20px;">開車</h5>
+              <br>
+              <a style="font-size: large; margin-top: 20px; ">【新興登山口(沙田路二段308巷)】
+                國道1號王田交流道下，接沙田路往北，轉進沙田路二段310巷，約1.2公里可抵達。</a>
+              <br>
+              <br>
+              <a style="font-size: large; margin-top: 20px; ">【監理所登山口(華南路)】
+                國道3號於龍井出口下交流道，接向上路六段，續接遊園路，至華南路右轉，往大肚方向約0.1公里，即可看到登山口指標。
+              </a>
+              <h5 style="margin-top: 30px; text-align: center;">
+                大眾運輸
+              </h5>
+              <br>
+              <br>
+              <a style="font-size: large; margin-top: 20px;">【新興登山口(沙田路二段308巷)】
+                台中客運93：可於高鐵台中站或清水、沙鹿、龍井、大肚火車站搭乘。
+                台中客運102：可於高鐵台中站或台中、沙鹿、龍井、大肚火車站搭乘。
+                仁友客運105：可於台中、龍井、大肚火車站搭乘。
+                巨業客運166、180：可於台中、沙鹿、龍井、大肚火車站搭乘。
+                於新庄里站下車，往前0.2公里，轉入沙田路二段308巷，約步行1.2公里可抵達登山口。</a>
+              <br>
+              <br>
+              <a style="font-size: large;">【監理所登山口(華南路)】
+                台中客運323：可於台中火車站搭乘，於台中區監理所(遊園路)站下車，往華南路約步行0.2公里，即可看到登山口指標。
+                台中客運325：可於台中火車站搭乘，於台中區監理所(華南路)站下車，往大肚方向約步行0.1公里，即可看到登山口指標。</a>
+            </div>
+
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...cc
+            </div>
+
+
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <h1 style="text-align: center;">一日遊推薦行程</h1>
+              <div style="height: auto;min-height: 200px;">
+                <img src="image/travel01.png" alt="..." class="  rounded-pill float-left" width="300px" height="200px"
+                  style="margin-right: 50px; ">
+                <br>
+                <h5>大肚隱藏秘境 </h5>
+                <a style="margin: auto; font-size: medium;">
+                  地址:台中市大肚區沙田路一段854巷53號(大肚落雨松旁)
+                  中東海棗田是屬於台中秘境
+                  是IG熱門打卡景點，新聞也曾報過呢!
+                  叮嚀各位來這裡不要破壞生態
+                  而蚊子有點多兒，要做好防蚊措施喔~
+                  這裡若是沒陽光照射，還蠻陰森的
+                </a>
+                <br>
+
+              </div>
+              <hr>
+              <div style="height:auto;min-height: 200px;">
+                <img src="image/travel02.png" alt="..." class="  rounded-pill float-left" height="200px" width="300px"
+                  style="margin-right: 50px;">
+                <br>
+                <h5>秋冬秘境</h5>
+                <a style="margin-top: 200px;font-size: large;">地址:台中市大肚區沙田路一段854巷35號(大忠國小旁)<br>
+                  也是大肚秘境之一
+                  葉子漸漸の轉紅了
+                  別再到泰安或是霧峰落雨松人擠人啦!
+                  趁人群沒很多時順遊來拍拍~這邊頗少人會去的
+                  可以讓你拍個夠、拍個盡興</a>
+
+              </div>
+              <hr>
+              <div style="height: auto;min-height: 200px;">
+                <img src="image/travel03.png" alt="..." class="  rounded-pill float-left" height="200px" width="300px"
+                  style="margin-right: 50px;">
+                <br>
+                <h5>「追分-成功」-追分車站</h5>
+                <a style="margin-top: 200px;font-size: large;">地址:台中市大肚區王田村追分街13號<br>
+                  仍有行駛中的火車站
+                  很夯的紀念車票「追分-成功」，讓這邊成為一個地標
+                  是一個日式建築的火車站~已有80多年歷史了!
+                </a>
+
+              </div>
+              <hr>
+
+              <div style="height: auto;min-height: 200px;">
+                <img src="image/travel04.png" alt="..." class="  rounded-pill float-left" height="200px" width="300px"
+                  style="margin-right: 50px;">
+                <br>
+                <h5>花甲男孩拍攝場地</h5>
+                <a style="margin-top: 200px;font-size: large;">地址:台中市大肚區(導航設定"瑞井古井"即可到達)<br>
+                  這邊~就是前陣子很夯的劇-花甲男孩轉大人拍攝場景
+                  古早的紅磚瓦厝，濃濃的鄉村味
+                </a>
+
+              </div>
+              <hr>
+              <div style="height: auto;min-height: 200px;">
+                <img src="image/travel05.png" alt="..." class="  rounded-pill float-left" height="200px" width="300px"
+                  style="margin-right: 50px;">
+                <br>
+                <h5>台中熱門夜景-大肚藍色公路 </h5>
+                <a style="margin-top: 200px;font-size: large;">地址:台中市大肚區華南路<br>
+                  藍藍der LED燈光照著整條路
+                  放眼望去也有美美的夜景
+                  許多自行車愛好者都會來這邊騎騎腳踏車、看看夜景
+                </a>
+
+              </div>
+              <hr>
+
+
+
+            </div>
+          </div>
+        </div> -->
+
+
+    </div>
+
+    <br>
+
+</body>
+
+</html>
+

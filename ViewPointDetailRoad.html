@@ -1,0 +1,263 @@
+<html lang="en">
+
+<head>
+    <title>大肚山</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            background: #d6f6a4;
+            border-bottom: 2px solid #64d464;
+            border-color: #82D900;
+        }
+
+        .nav-link {
+            color: black;
+        }
+
+        .nav-pills .nav-link.active {
+            background: #82D900;
+
+        }
+
+        .tab-content {
+            border: 2px solid #82D900;
+            border-color: greenyellow;
+        }
+
+    </style>
+    <script async src="https://cse.google.com/cse.js?cx=eadac2c2055af9e16"></script>
+
+
+</head>
+
+
+<body>
+
+
+<!-- 導覽列 -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:  #d6f6a4;">
+
+    <!-- .navbar-brand 左上LOGO位置 -->
+    <a class="navbar-brand" href="Index.html">
+        <a class="navbar-brand" href="Index.html" style="font-size: large; ">
+            <svg width="1.0625em" height="1em" viewBox="0 0 17 16" class="bi bi-image-alt" fill="currentColor"
+                 xmlns="http://www.w3.org/2000/svg" style="color: #089465;">
+                <path
+                        d="M10.648 6.646a.5.5 0 0 1 .577-.093l4.777 3.947V15a1 1 0 0 1-1 1h-14a1 1 0 0 1-1-1v-2l3.646-4.354a.5.5 0 0 1 .63-.062l2.66 2.773 3.71-4.71z"/>
+                <path fill-rule="evenodd" d="M4.5 5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+            </svg>
+            景點旅遊指南</a>
+    </a>
+    <!-- .navbar-toggler 漢堡式選單按鈕 -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- .navbar-toggler-icon 漢堡式選單Icon -->
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- .collapse.navbar-collapse 用於外層中斷點群組和隱藏導覽列內容 -->
+    <!-- 選單項目&漢堡式折疊選單 -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!-- active表示當前頁面 -->
+            <li class="nav-item active">
+                <a class="navbar-brand" href="Index.html" style="font-size: large; ">
+                    <svg width="1em" height="1em"
+                         viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg"
+                         style="color: red;">
+                        <path fill-rule="evenodd"
+                              d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                        <path fill-rule="evenodd"
+                              d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                    </svg>
+                    首頁</a>
+            </li>
+            <!--            <l i class="nav-item ">-->
+            <!--                <a class="nav-link" href="Activity.html">-->
+            <!--                    <svg width="1em" height="1em" viewBox="0 0 16 16"-->
+            <!--                         class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"-->
+            <!--                         style="color:aqua;">-->
+            <!--                        <path-->
+            <!--                                d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>-->
+            <!--                    </svg>-->
+            <!--                    最新活動 <span class="sr-only">(current)</span></a>-->
+            <!--            </l>-->
+            <li class="nav-item">
+                <a class="nav-link" href="https://forms.gle/zYkBpWND1FefzcCC7">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope"
+                         fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color:darkgoldenrod;">
+                        <path fill-rule="evenodd"
+                              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                    </svg>
+                    聯絡我們</a>
+            </li>
+        </ul>
+        <!--        <form class="form-inline my-2 my-lg-0">-->
+        <!--            <div class="gcse-search"></div>-->
+        <!--        </form>-->
+    </div>
+
+</nav>
+<!-- 轉播 -->
+<!-- 轉播 -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="image/tree4.jpg" alt="First slide" style="height: 280px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/Mount3.jpg" alt="Second slide" style="height: 280px;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="image/tree3.jpg" alt="Third slide" style="height: 280px;">
+        </div>
+    </div>
+    <div class="carousel-caption d-none d-md-block">
+        <a style="font-size: 100px; font-weight: bold">大肚山</a>
+        <p style="font-size: 50px; font-weight:bold;">景點旅遊指南</p>
+    </div>
+
+</div>
+<br>
+<!-- 內容 -->
+<hr style="background-color: #82D900 ;">
+<div style="text-align: center;">
+    <h1>大肚藍色公路</h1>
+</div>
+<hr style="background-color: #82D900 ;">
+
+<div class=" container-fluid">
+    <div class="row"
+         style="padding: 0px; margin-left: 50px;margin-right: 50px; border-color:  #82D900;border-width:3px;border-style:solid;padding:5px; ">
+        <div class="col-lg-7"style="display:flex;
+justify-content:center;
+align-items:center;">
+            <div class="col"style="display:inline-block;">
+                <img class="img" src="image/Road6.jpg"
+                     style="height: auto; width: 100% ;min-width: 80%"/>
+            </div>
+
+
+        </div>
+
+        <div class="col-lg-5" style="display:flex;
+justify-content:center;
+align-items:center;">
+            <div style="display:inline-block;">
+                <dd style="font-size: xx-large;  display: inline-block;
+               height: fit-content; width: fit-content;
+  vertical-align: middle;
+  line-height: normal;">台中市大肚山的藍色公路，是每個重機夢想中拍照的場景，
+                    幾乎沒有一個重機愛好者沒在這裡拍過照片的。 這裏剛好可以跟「大肚山望高寮夜景公園」的夕陽一起拍照；這條藍色公路在近一、 兩年間聲名大噪，
+                    因為用了藍色的路燈，在夜晚的大肚華南路上燃起路燈時，
+                    就成了美麗的藍色公路，由部份筆直部份蜿蜒的山路串接而成，在夜晚時分利用空拍的角度也才能 更彰顯它的美麗。
+                </dd>
+            </div>
+
+        </div>
+    </div>
+    <!--            </div>-->
+</div>
+
+<!--nav-->
+<nav style="padding: 30px;">
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+           aria-controls="nav-home" aria-selected="true" style="">詳細介紹</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+           aria-controls="nav-profile" aria-selected="false">地點</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+           aria-controls="nav-contact" aria-selected="false">圖片</a>
+    </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+
+
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="col-md-12">
+
+            <div>
+                <h5 style="text-align: center; font-size: xx-large">大肚藍色公路</h5>
+                <!--          <dt class="col-sm-12" style="text-align: center;">Malesuada porta</dt>-->
+                <div style="text-align: center;">
+                    <div style="padding-right: 10%;padding-left: 10%">
+                        <dd class="col-sm-12" style="font-size: xx-large">
+                            這裡的夜景 真的是美麗到不行，這附近有許多商家，可以邊吃飯邊觀賞夜景。當然
+                            他的夕陽也很有看頭，道路剛好面向大肚溪出海口的方向，可以看到台灣海峽及大肚溪上面太陽的
+                            倒影，運氣好的話還可以看到同時有三顆太陽的奇景ㄋ 。 機車認真其的話大概5分鐘就可以走完了
+                            。車流量不算大，欣賞美景時也不要忘記路過的車輛哦～
+
+                        </dd>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div style="text-align: center;">
+            <div style="padding-right: 10%;padding-left: 10%">
+                <dd class="col-sm-12" style="font-size: xx-large"
+                >
+                    開車路線：行駛台灣大道七段　一＞　直行中興路　一＞　走左側第 2 條車道向左轉，進入向上路六段/136縣道　一＞　
+                    靠右以繼續行駛向上路六段/136縣道　一＞　經過鴻鈿風
+                    管工程 (位於右側) 後向右轉　一＞　於太平路/中60-1鄉道向左轉　一＞　於中蔗路向左轉　一＞　於中蔗路向左轉　一＞　抵達大肚藍色公路
+                </dd>
+            </div>
+
+        </div>
+        <div class="col-lg-12" style="margin: auto; width: 80%; height: 60%;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.4806282573654!2d120.55899901412225!3d24.15487128439157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693f9fa6283f57%3A0xdcbb9109c031f264!2zNDMy5Y-w5Lit5biC5aSn6IKa5Y2A5aSn6IKa6JeN6Imy5YWs6Lev!5e0!3m2!1szh-TW!2stw!4v1607762497823!5m2!1szh-TW!2stw"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+        </div>
+        <br>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+         style="text-align: center">
+        <img class="img-fluid" src="image/Road2.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road10.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road4.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road5.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road6.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road7.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road8.jpg" style="height: 450px; margin-top: 30px;"/>
+        <img class="img-fluid" src="image/Road9.jpg" style="height: 450px; margin-top: 30px;"/>
+<!--        <img class="img-fluid" src="image/Road10.jpg" style="height: 450px; margin-top: 30px;"/>-->
+
+
+        <br>
+        <br>
+    </div>
+</div>
+<br>
+<div class="container">
+    <div class="row"style="text-align: center ;display:flex;
+justify-content:center;">
+        <div class="row-sm-12" >
+            <!--            <video class="embed-responsive-item" src="video.mp4" autoplay="autoplay" loop="true" muted="true" style="width: 450px" playsinline preload="auto" >-->
+            <!--&lt;!&ndash;                <source type="video/mp4" src="video1.gif">&ndash;&gt;-->
+            <!--            </video>-->
+            <img src="video1.gif" style="width: 450px;"/>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
